@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	hello "backend/packages"
+)
 
 func main() {
-	fmt.Println("Hello, Go!")
+	who := "Go"
+	hello.Hello(who)
 }

@@ -1,3 +1,6 @@
+# This configuration file is used to define the services that will be used during development.
+# The frontend service is built from the Dockerfile in the frontend directory, and the backend service is built from the Dockerfile in the backend directory.
+# The frontend service is exposed on port 3000, and the backend service is exposed on port 5000.
 services:
   frontend:
     build: ./frontend
